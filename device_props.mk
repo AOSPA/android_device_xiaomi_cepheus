@@ -188,6 +188,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.enable_hwc_vds=1 \
     debug.sf.hw=0 \
     debug.sf.latch_unsignaled=1 \
+    vendor.gralloc.disable_ubwc=0 \
     ro.opengles.version=196610 \
     ro.hardware.egl=adreno \
     ro.hardware.vulkan=adreno \
@@ -285,11 +286,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
     ro.surface_flinger.vsync_event_phase_offset_ns=2000000 \
     ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
-
-# WFD
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.debug.wfd.enable=1 \
-    persist.sys.wfd.virtual=0
 
 # WiFi
 PRODUCT_PROPERTY_OVERRIDES += \
