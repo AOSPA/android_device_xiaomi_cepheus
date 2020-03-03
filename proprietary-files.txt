@@ -445,12 +445,16 @@ vendor/firmware/tas2557_uCDSP_aac.bin
 vendor/firmware/tas2557_uCDSP_goer.bin
 
 # GPS - from LA.UM.8.1.r1-14300-sm8150.0
+vendor/bin/xtwifi-client|8df2ccbcc1ef6e418b4c0b90c35c7eef40b86bb1
+vendor/bin/xtwifi-inet-agent|45a5db235eb12c322b9ef65797d1650772fbb0b6
 vendor/bin/loc_launcher|9623f5f96bd262abc5c883610feca43a5ab214b3
 vendor/bin/lowi-server|30879dcd5ad1d5fa135f1b6cd7a429f8d27d3bfd
 vendor/bin/slim_daemon|b65684d09601cc4e81f4c5972a92a575a362c8ab
 vendor/bin/xtra-daemon|24240c9d809d7964d22eb1f82c0ec0a7bfbeb311
+vendor/etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
 vendor/lib/libslimclient.so|12c0ecaf7de7a07ae4a7f80dbc564ce229c3ca33
 vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so|4c696d794933e34e5fb68c7aba67f533058bc858
+vendor/lib64/libaoa.so|b9542775d5876b9215b9b8336af5eb5d247ef89b
 vendor/lib64/libdataitems.so|eed59b07b2b7d02dd9ac008f341d7c50dccf7d5d
 vendor/lib64/libgdtap.so|ac4eef2860539c776fee1809d567357626963778
 vendor/lib64/libizat_client_api.so|2343abbe03743adb24a79762feb89a2174b9b838
@@ -466,9 +470,6 @@ vendor/lib64/libxtadapter.so|4d1f195e2ead9e2d4b459d890d9ad032c67155d8
 vendor/lib64/vendor.qti.gnss@3.0-service.so|e799172a7113a35b1f17a8c5999713286c104d11
 
 # GPS
-vendor/bin/xtwifi-client
-vendor/bin/xtwifi-inet-agent
-vendor/etc/cacert_location.pem
 vendor/lib64/libloc_api_v02.so
 vendor/lib64/libloc_socket.so
 vendor/lib64/vendor.qti.gnss@1.0.so
@@ -479,7 +480,6 @@ vendor/lib64/vendor.qti.gnss@2.1.so
 vendor/lib64/vendor.qti.gnss@3.0.so
 
 # GPS-Hardware
-vendor/lib64/libaoa.so
 vendor/lib64/libgnsspps.so
 
 # Gatekeeper
@@ -570,7 +570,7 @@ vendor/lib/libsmwrapper.so
 
 # Media - from LA.UM.8.1.r1-14300-sm8150.0
 vendor/bin/hw/vendor.qti.media.c2@1.0-service|80ea3c27b7c1d92c5d5a9fc7f8cfb18aa3eb227a
-vendor/bin/vppservice|13d8a911642844bde32d533948a35730e17d41ad
+vendor/bin/vppservice|619ee3c568de86f0d9a67f007b6eb70011751b2a
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|11209316ba8aae64b689217bc13b0804f6620678
 vendor/lib/libdsd2pcm.so|a5b2a566ab24322b571ea5c1ae224381e951f91b
 vendor/lib/libMpeg4SwEncoder.so|92a4701711a06c52e117aceef1c112e4882f563d
@@ -587,30 +587,32 @@ vendor/lib/libOmxEvrcDec.so|b7faec88cd37639ae19ad3e65f2f1f2328c47991
 vendor/lib/libOmxG711Dec.so|5222a2c0b357c5fb2bfe3c076144247b28143bd3
 vendor/lib/libOmxMux_proprietary.so|175c8d61d7bc7f793842e5b46370dde659dbbb1a
 vendor/lib/libOmxQcelp13Dec.so|9f7c6df8af7dfda8a814060aa0f4f89f15e3bd2c
-vendor/lib/libOmxVpp.so|78e9ab3054cf402061e24496003aa669006abf08
 vendor/lib/libOmxWmaDec.so|3ec1cf02686119e6cc6cc9d41638ab9efdb8bbec
-vendor/lib/libqcodec2.so|d2dfc3fff6aaf7989110ebe05af154186e535010
+vendor/lib/libqcodec2.so|7e290c9a08cb80e662e4cab6bb90c392460bc128
 vendor/lib/libvppclient.so|c49779329e8f830c93dfe869a45c0f287cd98807
 vendor/lib/libvpphcp.so|debcf37598b1a0c2510a287c3cdf277d4a92cc33
 vendor/lib/libvpphvx.so|44436688c9da13ed5abb3cba5260c7833e10564b
 vendor/lib/libvpplibrary.so|bcba69b499c6bf040c90587b97cb70381d6258bb
-vendor/lib/vendor.qti.hardware.vpp@1.1.so|8eaf85ce72b22b0b804f102da5910b0ef862793f
-vendor/lib/vendor.qti.hardware.vpp@1.2.so|0e70596f65649520811306d74da3ada9b764ee51
 vendor/lib64/libMpeg4SwEncoder.so|453a9b47c9e430ea7476d41f14abaa5d16cb318b
 vendor/lib64/libmulawdec.so|2f8cd09580892a2bfa4f8e711895e2b08340d0ed
 vendor/lib64/libvppclient.so|ac61437c920a1fa1a97e56a1c1be356db2730cad
 vendor/lib64/libvpphcp.so|6c0b520a9b81a194f53c554c14472081dbe0593a
 vendor/lib64/libvpphvx.so|ec33c14302d9ee2729f435ada8843965ea416600
 vendor/lib64/libvpplibrary.so|ea4fa5076315dfc3859d93fb805bd4d21da204d1
-vendor/lib64/vendor.qti.hardware.vpp@1.1.so|3e3eba7284fa506f4f57f414b301bf15ba441277
-vendor/lib64/vendor.qti.hardware.vpp@1.2.so|b9b340f01ce4e900738eb85e6b431f85a3dbd82c
-vendor/lib64/vendor.qti.hardware.vpp@1.3.so|420cb42e5a3187924acef0163354f711339787eb
 
 # Media-Hardware
 vendor/etc/init/vppservice.rc
 vendor/lib/libarbitrarybytes.so
 vendor/lib/libOmxSwVdec.so
 vendor/lib/libOmxSwVencMpeg4.so
+
+# Media
+vendor/lib/libOmxVpp.so
+vendor/lib/vendor.qti.hardware.vpp@1.1.so
+vendor/lib/vendor.qti.hardware.vpp@1.2.so
+vendor/lib64/vendor.qti.hardware.vpp@1.1.so
+vendor/lib64/vendor.qti.hardware.vpp@1.2.so
+vendor/lib64/vendor.qti.hardware.vpp@1.3.so
 
 # Mlipay
 vendor/bin/mlipayd@1.1
@@ -634,12 +636,12 @@ vendor/lib64/unnhal-acc-hvx.so
 vendor/lib/libsn100u_fw.so
 
 # Pasrmanager
--vendor/app/pasrservice/pasrservice.apk
-vendor/etc/init/vendor.qti.power.pasrmanager@1.0-service.rc
 vendor/lib64/vendor.qti.power.pasrmanager@1.0.so
 
 # Pasrmanager - from LA.UM.8.1.r1-14300-sm8150.0
+-vendor/app/pasrservice/pasrservice.apk|6d3652585578e5e22ff1437fd598f14a1ae4ae4a
 vendor/bin/hw/vendor.qti.power.pasrmanager@1.0-service|4c5b9f64462ed08ac7ffd67cf9c76f7d65d8da97
+vendor/etc/init/vendor.qti.power.pasrmanager@1.0-service.rc|b34c1b9179c89cd47adce145bae9a609e5141bc0
 vendor/lib64/hw/vendor.qti.power.pasrmanager@1.0-impl.so|1ff8bc4c4cbc7be7fdda530fd1c8395aa2ef679d
 
 # Perf
@@ -664,10 +666,10 @@ vendor/lib/libperfgluelayer.so|dad079097e6db49514e1e31636b63da6a89da5fd
 vendor/lib/libqti-perfd-client.so|c29e14a9c0c7e330dda3b7453d0cb242944c4c38
 vendor/lib/libqti-perfd.so|b7f3d0adcaa7036c27d10c53b0454f37d4b56268
 vendor/lib/libqti-util.so|72cc63fd039cf4aa7c6b62f53a1f2e4bada05f42
-vendor/lib64/libappclassifier.so|8697ff9e77a872b849cd2ce95afa45dac97cb01e
+vendor/lib64/libappclassifier.so|8c8e35e52ad1b2e722f8345afc3073ae80fa904f
 vendor/lib64/liblearningmodule.so|fb4c9e97e5b1f50babc83318815d5e251afa140b
 vendor/lib64/libmeters.so|09f178dee1aa074f12fac5c502a7a6436ce93716
-vendor/lib64/libperfconfig.so|de5ea1c639d93d1a66f43d3d3e8f4e1602c0a83e
+vendor/lib64/libperfconfig.so|efcf939fdf18a273fedd82cdabc3adc32d7ca46b
 vendor/lib64/libperfgluelayer.so|4c95e08abc1cef5b39db06579d8f9faceb8f23d4
 vendor/lib64/libqti-perfd-client.so|0c2b82b5e5df6e0efb03ace4a259eb63487dd2b6
 vendor/lib64/libqti-perfd.so|7a6c75d2ec8ba7ed6bf17ef048c3c79a1a2daf53
@@ -919,11 +921,11 @@ vendor/lib64/sensors.touch.so
 
 # Soter - from LA.UM.8.1.r1-14300-sm8150.0
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|37f9501fa45a69ba3a27fd338704d76afc534bcb
+vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|33bd8876cfbc86419094e2a1282734690c0e254e
 
 # Soter
 -app/SoterService/SoterService.apk
-vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
 # Thermal
@@ -946,7 +948,7 @@ vendor/lib64/hw/thermal.msmnile.so
 # Time - from LA.UM.8.1.r1-14300-sm8150.0
 -vendor/app/TimeService/TimeService.apk|4a37afd1395758d946580af184a738e3c657b1e2
 vendor/bin/time_daemon|e57abec59dfecb659d8349b5a3e87a0beca4e932
-vendor/etc/init/init.time_daemon.rc
+vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|f7e70ecdae66c5e07662e5a8562a3297994bdbe6
 
 # Vibrator
