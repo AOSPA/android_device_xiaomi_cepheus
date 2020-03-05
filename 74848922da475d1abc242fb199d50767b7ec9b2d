@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "eb41ace5_fb54d10b",
+        "filename": "msmnile.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-03-05T13:37:51Z",
+      "side": 1,
+      "message": "We can probably consolidate these lists",
+      "revId": "74848922da475d1abc242fb199d50767b7ec9b2d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
