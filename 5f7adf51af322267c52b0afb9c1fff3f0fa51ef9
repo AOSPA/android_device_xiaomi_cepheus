@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f76c086_2724f483",
+        "filename": "device_props.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-03-19T00:24:14Z",
+      "side": 1,
+      "message": "tell me about this one",
+      "revId": "5f7adf51af322267c52b0afb9c1fff3f0fa51ef9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1596a2a8_7df29f16",
+        "filename": "msmnile.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 424,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-03-19T00:24:14Z",
+      "side": 1,
+      "message": "are these needed? thought we did this in common",
+      "revId": "5f7adf51af322267c52b0afb9c1fff3f0fa51ef9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
