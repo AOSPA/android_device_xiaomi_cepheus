@@ -227,11 +227,6 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc
 
-# IPA
-PRODUCT_PACKAGES += \
-    ipacm \
-    IPACM_cfg.xml
-
 # IR
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
